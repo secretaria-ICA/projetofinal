@@ -2,7 +2,7 @@
 # Título do Trabalho
 
 #### Aluno: [Camilo Lopes Costa](https://github.com/milocosta)
-#### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC).
+#### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
 <!--#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
