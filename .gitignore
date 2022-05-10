@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files
+imdb-reviews-pt-br.csv
+imdb-reviews-pt-br.csv.zip
+17784-769-14241-1-10-20211106.pdf
