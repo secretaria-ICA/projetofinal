@@ -132,3 +132,11 @@ dmypy.json
 imdb-reviews-pt-br.csv
 imdb-reviews-pt-br.csv.zip
 17784-769-14241-1-10-20211106.pdf
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt-20220517T011631Z-001.zip
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/config.json
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/pytorch_model.bin
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/special_tokens_map.json
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/tokenizer_config.json
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/tokenizer.json
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/training_args.bin
+modelo/neuralmind-bert-base-portuguese-cased-finetuned-squad-v1.1-pt/vocab.txt
