@@ -79,14 +79,18 @@ A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabili
 
 ### 2. Modelagem
 
-
+Para modelagem do problemas foram...
 
 ### 3. Resultados
 
+Analisando as tabelas, podemos verificar que...
 
 
 ### 4. Conclusões
 
+Podemos verificar nas tabelas de resultados que...
+
+Uma melhoria para esta solução é possibilitar a leitura de documentos, dos repositórios, que estejam em outro formato (PDF, DOC, ODT, etc) Desta forma será possível possível obter uma solução mais ampla e flexível.
 
 ---
 
