@@ -53,12 +53,15 @@ The works contained in this repository are:
 * Quincas Borba;
 * Dom Casmurro;
 * Esau and Jacob;
-* Aires Memorial;
+* Aires Memorial
 
 
 
 ### 1. Introdução
-Das aplicações de NLP utilizadas hoje, temos algumas das principais aplicações que envolvem o NLP, seja para texto ou para voz. São elas:
+
+O NLP (do inglês *Natural Language Processing*) vem ganhando grande notoriedade no mercado hoje em dias para realizações de análises quantitativas e qualitativas (eg.: verificando os tesmos mais recorrentes nas avaliações e se a avaliação foi positiva ou negativa através da "análise de sentimentos"). Por se tratar de uma ramo muito abrangente da área de *Machine Learning*, muitos têm ganhado bastante atenção nos dias de hoje.
+
+Das diversas aplicações de NLP, algumas que se destacam atualmente são:
 * Speech Transcription: geração de texto através da fala ou geração da fala através de um texto;
 * Neural Machine Translation (NMT): Tradução entre idiomas;
 * Chatbots: Grande tendência entre as empresas por se tratar de robôs de conversa muito utilizado no atendimento ao cliente. Este tipo de algoritmo pode ser utilizado para utilização de voz ou por texto;
@@ -66,8 +69,13 @@ Das aplicações de NLP utilizadas hoje, temos algumas das principais aplicaçõ
 * Text Summarization: Realizar o resumo de textos de através de mecanismos extrativos no qual são extraídos trechos do texto que possuem maiores aproximações conforme o algoritmo de comparação (cosseno, etc) ou abstrativos que implica em ler o texto e escrever um resumo, ou seja, texto novo;
 * Image Captioning: Geração de uma legenda através do reconhecimento de uma imagem;
 * Video Captioning: Geração de legendas automáticas de vídeos;
-* Análise de Sentimentos: Verificar se o texto possui características positivas, negativas ou neutras. Ex.: Positiva: 'Estou feliz...', Negativa: 'Estou triste...'
+* Análise de Sentimentos: Verificar se o texto possui características positivas, negativas ou neutras. Ex.: Positiva: 'Estou feliz...', Negativa: 'Estou triste...';
+* Document Retrieval: retorna os documentos baseados em algum parâmetro de busca, seja ele uma pergunta do usuário ou um trecho;
+* Passage Retrieval: pode-se dizer que trata-se de uma melhoraria do Document Retrieval possibilitando o retorno não apenas o documento mas também o trecho, página, etc. que se encontra a resposta
 
+O Document Retrieval pode ser utilizado para diversas finalidades, desde buscar um livro que contenha algumas características e assim poder categorizá-lo até a possibilidade de verificar um Curriculum e direcionar à área que tenha maior afinidade (aplicação de RH).
+
+A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados que possuam maior score agilizando o processo de seleção de livros ou documentos.
 
 ### 2. Modelagem
 
