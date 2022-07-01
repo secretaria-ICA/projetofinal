@@ -25,32 +25,57 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 ---
 
 ### Resumo
-
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
-
+Este trabalho abordará a aplicação Document Retrieval através do Q&A. Através de um parâmetro de entrada dado pelo usuário, uma busca será feita no repositório contendo as obras de Machado de Assis, no formato .txt, e retornará como resposta os 3 primeiros que obtiverem melhor resultado (score).
+As obras contidas neste repositório são:
+* Ressureição;
+* A Mão e a Luva;
+* Helena;
+* Iaiá Garcia;
+* Memórias Póstumas de Brás Cubas;
+* Casa Velha;
+* Quincas Borba;
+* Dom Casmurro;
+* Esaú e Jacó;
+* Memorial de Aires;
 
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
-
 <!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
+This work will approach the Document Retrieval application through Q&A. Through an input parameter given by the user, a search will be made in the repository containing the works of Machado de Assis, in .txt format, and the first 3 that obtain the best result (score) will return as an answer.
+The works contained in this repository are:
+* Resurrection;
+* The Hand and the Glove;
+* Helen;
+* Iaiá Garcia;
+* The Posthumous Memoirs of Bras Cubas;
+* Old house;
+* Quincas Borba;
+* Dom Casmurro;
+* Esau and Jacob;
+* Aires Memorial
 
 
 
 ### 1. Introdução
-Das aplicações de NLP utilizadas hoje, temos algumas das principais aplicações que envolvem o NLP, seja para texto ou para voz. São elas:
-* Speech Transcription: gerar um texto através da fala ou gerar a fala através do texto;
+
+O NLP (do inglês *Natural Language Processing*) vem ganhando grande notoriedade no mercado hoje em dias para realizações de análises quantitativas e qualitativas (eg.: verificando os tesmos mais recorrentes nas avaliações e se a avaliação foi positiva ou negativa através da "análise de sentimentos"). Por se tratar de uma ramo muito abrangente da área de *Machine Learning*, muitos têm ganhado bastante atenção nos dias de hoje.
+
+Das diversas aplicações de NLP, algumas que se destacam atualmente são:
+* Speech Transcription: geração de texto através da fala ou geração da fala através de um texto;
 * Neural Machine Translation (NMT): Tradução entre idiomas;
-* Chatbots: Grande tendência entre as empresas pois tratam-se de robôs de conversa muito utilizado no atendimento ao cliente. Este tipo de algoritmo pode ser utilizado para utilização de voz ou por texto;
-* Questions & Answers (Q&A): Podemo ser muito utilizado para busca de respostas para pergunta sugerida;
+* Chatbots: Grande tendência entre as empresas por se tratar de robôs de conversa muito utilizado no atendimento ao cliente. Este tipo de algoritmo pode ser utilizado para utilização de voz ou por texto;
+* Questions & Answers (Q&A): São muito utilizados para buscar possíveis resposta tanto na internet quanto num repositório, seja ele de documentos ou tabelas.
 * Text Summarization: Realizar o resumo de textos de através de mecanismos extrativos no qual são extraídos trechos do texto que possuem maiores aproximações conforme o algoritmo de comparação (cosseno, etc) ou abstrativos que implica em ler o texto e escrever um resumo, ou seja, texto novo;
-* Image Captioning: Reconhecer uma imagem e gerar uma legenda para a imagem;
-* Video Captioning: Gerar legendas e gera legendas automáticas;
-* Análise de Sentimentos: Verificar se o texto possui características positivas, negativas ou neutras. Ex.: Positiva: 'Estou feliz...', Negativa: 'Estou triste...'
+* Image Captioning: Geração de uma legenda através do reconhecimento de uma imagem;
+* Video Captioning: Geração de legendas automáticas de vídeos;
+* Análise de Sentimentos: Verificar se o texto possui características positivas, negativas ou neutras. Ex.: Positiva: 'Estou feliz...', Negativa: 'Estou triste...';
+* Document Retrieval: retorna os documentos baseados em algum parâmetro de busca, seja ele uma pergunta do usuário ou um trecho;
+* Passage Retrieval: pode-se dizer que trata-se de uma melhoraria do Document Retrieval possibilitando o retorno não apenas o documento mas também o trecho, página, etc. que se encontra a resposta
 
-Neste trabalho será abordada a busca dentro de um repositório de documentos em português no qual, através de uma pergunta (parâmetro de entrada), serão retornados os livros e os respectivos trechos contendo as possíveis respostas para a pergunta.
+O Document Retrieval pode ser utilizado para diversas finalidades, desde buscar um livro que contenha algumas características e assim poder categorizá-lo até a possibilidade de verificar um Curriculum e direcionar à área que tenha maior afinidade (aplicação de RH).
 
-Para realização deste algoritmo, serão utilizados alguns modelos de pretreinamentos já existentes no HuggingFace.
-
+A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados que possuam maior score agilizando o processo de seleção de livros ou documentos.
 
 ### 2. Modelagem
 
