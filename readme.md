@@ -19,6 +19,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
     - [Introduction to Information Retrieval](https://www.kaggle.com/code/vabatista/introduction-to-information-retrieval)
     - [Question Answering BERT Base Cased Squad - PT](https://colab.research.google.com/drive/18ueLdi_V321Gz37x4gHq8mb4XZSGWfZx?usp=sharing)
     - [Portuguese BERT base cased Q&A, finetuned on SQUAD v1.1](https://huggingface.co/pierreguillou/bert-base-cased-squad-v1.1-portuguese?context=Meu+nome+%C3%A9+John%2C+tenho+20+anos%2C+moro+no+Brasil.+Estudo+no+Canad%C3%A1.&question=Onde+eu+estudo%3F)
+    - [Haystack by Deepset](https://haystack.deepset.ai/overview/intro)
     - [Better Retrieval via Dense Passage Retrieval (DPR)](https://colab.research.google.com/github/deepset-ai/haystack/blob/master/tutorials/Tutorial6_Better_Retrieval_via_DPR.ipynb)
     - [roberta-base for QA](https://huggingface.co/deepset/roberta-base-squad2)
 
