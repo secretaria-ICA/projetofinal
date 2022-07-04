@@ -29,7 +29,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 Este trabalho abordará a aplicação Document Retrieval através do Q&A. Através de um parâmetro de entrada dado pelo usuário, uma busca será feita no repositório contendo as obras de Machado de Assis, no formato .txt, e retornará como resposta os 3 primeiros que obtiverem melhor resultado (score).
 As obras contidas neste repositório são:
-* Ressureição;
+* Ressurreição;
 * A Mão e a Luva;
 * Helena;
 * Iaiá Garcia;
@@ -76,11 +76,40 @@ Das diversas aplicações de NLP, algumas que se destacam atualmente são:
 
 O Document Retrieval pode ser utilizado para diversas finalidades, desde buscar um livro que contenha algumas características e assim poder categorizá-lo até a possibilidade de verificar um Curriculum e direcionar à área que tenha maior afinidade (aplicação de RH).
 
-A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados que possuam maior score agilizando o processo de seleção de livros ou documentos.
+A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados (documentos) que possuam maior *score* agilizando o processo de seleção de livros ou documentos.
+
+Para o repositório utilizado, foram elaboradas as seguintes perguntas simples:
+1. Quem foi Capitu?
+2. Quem é Mascarenhas?
+3. Quem é a filha de Dona Eusébia e do Vilaça?
+4. Rubião e Cristiano viram sócios em que?
+5. Por que Estevão desejava morrer?
+6. Salvador era pai de quem?
+7. Com quem Jorge se casa ao voltar do Paraguai?
+8. Por quem Pedro e Paulo estavam apaixonados?
+9. Quem escreve sobre Tristão e Fidélia?
+10. Como Escobar morreu?
+
+Os livro que deve retornar com o maior *score* para cada pergunta são:
+1. Dom Casmurro
+2. Casa Velha
+3. Memórias Póstumas de Brás Cubas
+4. Quincas Borba
+5. A Mão e a Luva
+6. Helena
+7. Iaiá Garcia
+8. Esaú e Jacó
+9. Memorial de Aires
+10. Dom Casmurro
 
 ### 2. Modelagem
 
-Para modelagem do problemas foram...
+Para modelagem do problemas foram utilizados os conceitos BERT (do inglês *Bidirectional Encoder Representations from Transformers*) no qual utiliza como predição os termos entre as frase. Neste projeto foram utilizados 3 modelos para verificação dos scores apresentados nos quais 2 deles são do idioma inglês com um possibilidade de pré-processamento no idioma portugUês. São eles:
+- Modelo Q&A de Pierre Guillou para idioma português.
+- Modelo DPR (do inglês *Deep Passage Retrieval*) do projeto Haystack da equipe Deepset.
+- Modelo BM25 do projeto Haystack da equipe Deepset.
+
+Estes dois últimos serão analisados os valores tanto para a modelagem padrão (inglês) quanto para o idioma português (pré-processamento). Desta forma será possível avaliar o desempenho dos resultados para uma modelagem própria para o português quanto o impacto de um idioma diferente do padrão nos outros dois modelos.
 
 ### 3. Resultados
 
