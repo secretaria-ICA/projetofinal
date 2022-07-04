@@ -90,7 +90,7 @@ Para o repositório utilizado, foram elaboradas as seguintes perguntas simples:
 9. Quem escreve sobre Tristão e Fidélia?
 10. Como Escobar morreu?
 
-Os livro que deve retornar com o maior *score* para cada pergunta são:
+O maior score para cada pergunta deverá ser o seguinte:
 1. Dom Casmurro
 2. Casa Velha
 3. Memórias Póstumas de Brás Cubas
