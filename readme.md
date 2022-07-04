@@ -113,7 +113,7 @@ Estes dois últimos serão analisados os valores tanto para a modelagem padrão 
 
 ### 3. Resultados
 
-Analisando as tabelas, podemos verificar que...
+Analisando as tabelas geradas em cadas script, podemos observar que...
 
 
 ### 4. Conclusões
