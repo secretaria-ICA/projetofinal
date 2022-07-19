@@ -107,13 +107,58 @@ O maior score para cada pergunta deverá ser o seguinte:
 Para modelagem do problemas foram utilizados os conceitos BERT (do inglês *Bidirectional Encoder Representations from Transformers*) no qual utiliza como predição os termos entre as frase. Neste projeto foram utilizados 3 modelos para verificação dos scores apresentados nos quais 2 deles são do idioma inglês com um possibilidade de pré-processamento no idioma portugUês. São eles:
 - Modelo Q&A de Pierre Guillou para idioma português.
 - Modelo DPR (do inglês *Deep Passage Retrieval*) do projeto Haystack da equipe Deepset.
-- Modelo BM25 do projeto Haystack da equipe Deepset.
+- Modelo BM25 da biblioteca `rank_bm25`.
 
-Estes dois últimos serão analisados os valores tanto para a modelagem padrão (inglês) quanto para o idioma português (pré-processamento). Desta forma será possível avaliar o desempenho dos resultados para uma modelagem própria para o português quanto o impacto de um idioma diferente do padrão nos outros dois modelos.
+O modelo DPR será analisado para execução sem pré-processamento (idioma inglês) e através do pré-processamento para verificação do idioma em português. Desta forma será possível avaliar o desempenho dos resultados para uma modelagem própria para o português quanto o impacto de um idioma diferente do padrão nos outros dois modelos.
 
 ### 3. Resultados
 
-Analisando as tabelas geradas em cadas script, podemos observar que...
+Após executação dos scripts afim de verificar os retornos que possuem a maior similarida, ou seja, os livros que possuem o maior score para o termo pesquisado, obtemos o seguinte:
+
+* QA - Pierre Guillou
+
+| Pergunta | Documento | Score |
+|------------- | :-------------: | -------------|
+|Salvador era pai de quem? | esau.txt | 0.993063 |
+|Salvador era pai de quem? | maoLuva.txt | 0.982218 |
+|Salvador era pai de quem? | domCasmurro.txt | 0.976742 |
+|Rubião e Cristiano viram sócios em que? | domCasmurro.txt0.949915 |
+|Rubião e Cristiano viram sócios em que? | quincas.txt0.918761 |
+|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt0.902077 |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt0.995128 |
+|Quem é a filha de Dona Eusébia e do Vilaça? | domCasmurro.txt0.893009 |
+|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt0.847360 |
+|Quem é Capitu? | domCasmurro.txt | 0.840419 |
+|Quem é Capitu? | memoriasBras.txt | 0.744943 |
+|Quem é Capitu? | helena.txt | 0.733090 |
+|Quem foi Mascarenhas? | esau.txt | 0.956288 |
+|Quem foi Mascarenhas? | quincas.txt | 0.817726 |
+|Quem foi Mascarenhas? | memoriasBras.txt | 0.594775 |
+|Quem escreve sobre Tristão e Fidélia? | helena.txt | 0.881686 |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.876177 |
+|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 0.829158 |
+|Por quem Pedro e Paulo estavam apaixonados? | maoLuva.txt | 0.974591 |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.753157 |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 0.666831 |
+|Por que Estevão desejava morrer? | memoriasBras.txt | 0.779468 |
+|Por que Estevão desejava morrer? | quincas.txt | 0.612361 |
+|Por que Estevão desejava morrer? | helena.txt | 0.581752 |
+|Como Escobar morreu? | domCasmurro.txt | 0.895922 |
+|Como Escobar morreu? | quincas.txt | 0.642612 |
+|Como Escobar morreu? | memoriasBras.txt | 0.602220 |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.946806 |
+|Com quem Jorge se casa ao voltar do Paraguai? | memoriasBras.txt | 0.884119 |
+|Com quem Jorge se casa ao voltar do Paraguai? | casaVelha.txt | 0.509564 |
+
+* Modelo DPR - Haystack (EN)
+
+* Modelo DPR - Haystack (PT)
+
+* BM25Okapi
+
+* BM25L
+
+* BM25+
 
 
 ### 4. Conclusões
