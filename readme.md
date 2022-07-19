@@ -142,13 +142,15 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 |Com quem Jorge se casa ao voltar do Paraguai? | casaVelha.txt | 0.509564 | ❌ |
 |Por quem Pedro e Paulo estavam apaixonados? | maoLuva.txt | 0.974591 | ❌ |
 |Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.753157 | ✅ |
-|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 0.666831 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 0.666831 | ❌ |
 |Quem escreve sobre Tristão e Fidélia? | helena.txt | 0.881686 | ❌ |
 |Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.876177 | ✅ |
 |Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 0.829158 | ❌ |
 |Como Escobar morreu? | domCasmurro.txt | 0.895922 | ✅ |
 |Como Escobar morreu? | quincas.txt | 0.642612 | ❌ |
 |Como Escobar morreu? | memoriasBras.txt | 0.602220 | ❌ |
+
+Podemos observar que 7 de 10 livros corretos encontram-se dentro do top3 para cada pergunta.
 
 * Modelo DPR - Haystack (EN)
 
@@ -185,6 +187,8 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 |Como Escobar morreu? | esau.txt | 0.533779 | ❌ |
 |Como Escobar morreu? | quincas.txt | 0.522244 | ❌ |
 
+Podemos observar que 8 de 10 livros corretos encontram-se dentro do top3 para cada pergunta. Em alguns casos houveram duplicatas de livros uma vez que o modelo utilizado realiza uma "divisão" em n-caracteres, ou seja, um livro foi dividido em partes por conta do limite e assim pôde ser exibido mais de uma vez no retorno da modelagem.
+
 * Modelo DPR - Haystack (PT)
 
 | Pergunta | Documento | Score | Resultado |
@@ -219,6 +223,8 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 |Como Escobar morreu? | memoriasBras.txt | 0.704576 | ❌ |
 |Como Escobar morreu? | esau.txt | 0.533779 | ❌ |
 |Como Escobar morreu? | quincas.txt | 0.522244 | ❌ |
+
+Podemos observar que 8 de 10 livros corretos encontram-se dentro do top3 para cada pergunta. Em alguns casos houveram duplicatas de livros conforme explicado no caso anterior.
 
 * BM25Okapi
 
@@ -255,6 +261,7 @@ Como Escobar morreu? | domCasmurro.txt | 6.376088 | ✅ |
 Como Escobar morreu? | maoLuva.txt | 1.969889 | ❌ |
 Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
 
+Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para cada pergunta.
 
 * BM25L
 
@@ -291,6 +298,8 @@ Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
 |Como Escobar morreu? | esau.txt | 2.823061 | ❌ |
 |Como Escobar morreu? | quincas.txt | 2.697297 | ❌ |
 
+Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para cada pergunta.
+
 * BM25+
 
 | Pergunta | Documento | Score | Resultado |
@@ -326,12 +335,16 @@ Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
 |Como Escobar morreu? | maoLuva.txt | 6.363999 | ❌ |
 |Como Escobar morreu? | ressurreicao.txt | 4.421122 | ❌ |
 
+Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para cada pergunta.
+
 
 ### 4. Conclusões
 
-Podemos verificar nas tabelas de resultados que
+Podemos observar nos resultados obtidos das tabelas que o mais eficiente deles são os 3 modelos do BM25 com uma acurácia de 90% uma vez que todos os resultados corretos foram os que obtiveram o maior score, com uma observação ao BM25L na 3a pergunta.
+Já os modelos utilizados para DPR, que foi estruturado para o idioma inglês, independente do pré-processamento, obtiveram os mesmos resultados e, alguns deles não foram o top score para a pergunta.
+O modelo de Pierre Guillou, apesar de obter 7 acertos, todos os livros corretos apresentaram o maior score para cada pergunta. Um possível solução seria a otimização do algoritmo utilizado em sua modelagem uma vez que foi de Q&A.
 
-Uma melhoria para esta solução é possibilitar a leitura de documentos, dos repositórios, que estejam em outro formato (PDF, DOC, ODT, etc) Desta forma será possível possível obter uma solução mais ampla e flexível.
+Uma melhoria para este projeto seria possibilitar a leitura de documentos em outras formatações (PDF, DOC, ODT, etc) contidos nos repositórios. Desta forma será possível possível obter uma solução mais ampla e flexível. Também é possível uma melhoria no desenvolvimento de um modelo pré-treinado em portugues para DPR português uma vez que, ao buscar algum no Huggingface para o idioma em questão, retornou com nenhum resultado.
 
 ---
 
