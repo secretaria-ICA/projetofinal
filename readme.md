@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Título do Trabalho
+# Document Retrieval através de Q&A
 
 #### Aluno: [Camilo Lopes Costa](https://github.com/milocosta)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
@@ -10,7 +10,9 @@
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/milocosta/projetofinal/blob/develop/script/main.ipynb). <!-- caso não aplicável, remover esta linha -->
+- [Link para os códigos](https://github.com/milocosta/projetofinal/tree/master/scripts). <!-- caso não aplicável, remover esta linha -->
+
+- [Link para repositório de livros](https://github.com/milocosta/projetofinal/tree/master/livros)
 
 - [Link para a monografia](https://github.com/milocosta/projetofinal). <!-- caso não aplicável, remover esta linha -->
 
@@ -22,7 +24,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
     - [Haystack by Deepset](https://haystack.deepset.ai/overview/intro)
     - [Better Retrieval via Dense Passage Retrieval (DPR)](https://colab.research.google.com/github/deepset-ai/haystack/blob/master/tutorials/Tutorial6_Better_Retrieval_via_DPR.ipynb)
     - [roberta-base for QA](https://huggingface.co/deepset/roberta-base-squad2)
-    - [rank_bm25] (https://github.com/dorianbrown/rank_bm25)
+    - [rank_bm25](https://github.com/dorianbrown/rank_bm25)
 
 ---
 
