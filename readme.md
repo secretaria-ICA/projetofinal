@@ -22,6 +22,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
     - [Haystack by Deepset](https://haystack.deepset.ai/overview/intro)
     - [Better Retrieval via Dense Passage Retrieval (DPR)](https://colab.research.google.com/github/deepset-ai/haystack/blob/master/tutorials/Tutorial6_Better_Retrieval_via_DPR.ipynb)
     - [roberta-base for QA](https://huggingface.co/deepset/roberta-base-squad2)
+    - [rank_bm25] (https://github.com/dorianbrown/rank_bm25)
 
 ---
 
