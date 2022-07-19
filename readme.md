@@ -119,106 +119,106 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 
 | Pergunta | Documento | Score | Resultado |
 |------------- | :-------------: | ------------- | ------------- |
-|Quem é Capitu? | domCasmurro.txt | 0.840419 | <ul><li>[x] ✅</li></ul> | ✅
+|Quem é Capitu? | domCasmurro.txt | 0.840419 | ✅ |
 |Quem é Capitu? | memoriasBras.txt | 0.744943 | ❌ |
-|Quem é Capitu? | helena.txt | 0.733090 | [] |
-|Quem foi Mascarenhas? | esau.txt | 0.956288 | [] |
-|Quem foi Mascarenhas? | quincas.txt | 0.817726 | [] |
-|Quem foi Mascarenhas? | memoriasBras.txt | 0.594775 | [] |
+|Quem é Capitu? | helena.txt | 0.733090 | ❌ |
+|Quem foi Mascarenhas? | esau.txt | 0.956288 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.817726 | ❌ |
+|Quem foi Mascarenhas? | memoriasBras.txt | 0.594775 | ❌ |
 |Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.995128 | ✅ |
-|Quem é a filha de Dona Eusébia e do Vilaça? | domCasmurro.txt | 0.893009 | [] |
-|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.847360 | [] |
-|Rubião e Cristiano viram sócios em que? | domCasmurro.txt | 0.949915 | [] |
-|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.918761 | <ul><li>[x] </li></ul> |
-|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.902077 | [] |
-|Por que Estevão desejava morrer? | memoriasBras.txt | 0.779468 | [] |
-|Por que Estevão desejava morrer? | quincas.txt | 0.612361 | [] |
-|Por que Estevão desejava morrer? | helena.txt | 0.581752 | [] |
-|Salvador era pai de quem? | esau.txt | 0.993063 | [] |
-|Salvador era pai de quem? | maoLuva.txt | 0.982218 | [] |
-|Salvador era pai de quem? | domCasmurro.txt | 0.976742 | [] |
-|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.946806 | <ul><li>[x] </li></ul> |
-|Com quem Jorge se casa ao voltar do Paraguai? | memoriasBras.txt | 0.884119 | [] |
-|Com quem Jorge se casa ao voltar do Paraguai? | casaVelha.txt | 0.509564 | [] |
-|Por quem Pedro e Paulo estavam apaixonados? | maoLuva.txt | 0.974591 | [] |
-|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.753157 | <ul><li>[x] </li></ul> |
-|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 0.666831 | <ul><li>[x] </li></ul> |
-|Quem escreve sobre Tristão e Fidélia? | helena.txt | 0.881686 | [] |
-|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.876177 | <ul><li>[x] </li></ul> |
-|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 0.829158 | [] |
-|Como Escobar morreu? | domCasmurro.txt | 0.895922 | <ul><li>[x] </li></ul> |
-|Como Escobar morreu? | quincas.txt | 0.642612 | [] |
-|Como Escobar morreu? | memoriasBras.txt | 0.602220 | [] |
+|Quem é a filha de Dona Eusébia e do Vilaça? | domCasmurro.txt | 0.893009 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.847360 | ❌ |
+|Rubião e Cristiano viram sócios em que? | domCasmurro.txt | 0.949915 | ❌ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.918761 | ✅ |
+|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.902077 | ❌ |
+|Por que Estevão desejava morrer? | memoriasBras.txt | 0.779468 | ❌ |
+|Por que Estevão desejava morrer? | quincas.txt | 0.612361 | ❌ |
+|Por que Estevão desejava morrer? | helena.txt | 0.581752 | ❌ |
+|Salvador era pai de quem? | esau.txt | 0.993063 | ❌ |
+|Salvador era pai de quem? | maoLuva.txt | 0.982218 | ❌ |
+|Salvador era pai de quem? | domCasmurro.txt | 0.976742 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.946806 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | memoriasBras.txt | 0.884119 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | casaVelha.txt | 0.509564 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | maoLuva.txt | 0.974591 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.753157 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 0.666831 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | helena.txt | 0.881686 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.876177 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 0.829158 | ❌ |
+|Como Escobar morreu? | domCasmurro.txt | 0.895922 | ✅ |
+|Como Escobar morreu? | quincas.txt | 0.642612 | ❌ |
+|Como Escobar morreu? | memoriasBras.txt | 0.602220 | ❌ |
 
 * Modelo DPR - Haystack (EN)
 
-| Pergunta | Documento | Score |
-|------------- | :-------------: | -------------|
-|Quem é Capitu? | quincas.txt | 0.797495 |
-|Quem é Capitu? | domCasmurro.txt | 0.697046 |
-|Quem é Capitu? | iaia.txt | 0.690444 |
-|Quem foi Mascarenhas? | quincas.txt | 0.518228 |
-|Quem foi Mascarenhas? | memoriasBras.txt | 0.427477 |
-|Quem foi Mascarenhas? | quincas.txt | 0.425616 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.915381 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.912015 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.867204 |
-|Rubião e Cristiano viram sócios em que? | helena.txt | 0.861414 |
-|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.851872 |
-|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.809805 |
-|Por que Estevão desejava morrer? | quincas.txt | 0.437841 |
-|Por que Estevão desejava morrer? | maoLuva.txt | 0.286587 |
-|Por que Estevão desejava morrer? | memorial-de-aires.txt | 0.278605 |
-|Salvador era pai de quem? | helena.txt | 0.786620 |
-|Salvador era pai de quem? | iaia.txt | 0.784398 |
-|Salvador era pai de quem? | esau.txt | 0.701406 |
-|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.588117 |
-|Com quem Jorge se casa ao voltar do Paraguai? | helena.txt | 0.525868 | 
-|Com quem Jorge se casa ao voltar do Paraguai? | quincas.txt | 0.452068 |
-|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.437352 |
-|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.291497 |
-|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.290117 |
-|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.634639 |
-|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.513964 |
-|Quem escreve sobre Tristão e Fidélia? | domCasmurro.txt | 0.487883 |
-|Como Escobar morreu? | memoriasBras.txt | 0.704576 |
-|Como Escobar morreu? | esau.txt | 0.533779 |
-|Como Escobar morreu? | quincas.txt | 0.522244 |
+| Pergunta | Documento | Score | Resultado |
+|------------- | :-------------: | ------------- | ------------- |
+|Quem é Capitu? | quincas.txt | 0.797495 | ❌ |
+|Quem é Capitu? | domCasmurro.txt | 0.697046 | ✅ |
+|Quem é Capitu? | iaia.txt | 0.690444 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.518228 | ❌ |
+|Quem foi Mascarenhas? | memoriasBras.txt | 0.427477 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.425616 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.915381 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.912015 | ✅ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.867204 | ✅ |
+|Rubião e Cristiano viram sócios em que? | helena.txt | 0.861414 | ❌ |
+|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.851872 | ❌ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.809805 | ✅ |
+|Por que Estevão desejava morrer? | quincas.txt | 0.437841 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt | 0.286587 | ✅ |
+|Por que Estevão desejava morrer? | memorial-de-aires.txt | 0.278605 | ❌ |
+|Salvador era pai de quem? | helena.txt | 0.786620 | ✅ |
+|Salvador era pai de quem? | iaia.txt | 0.784398 | ❌ |
+|Salvador era pai de quem? | esau.txt | 0.701406 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.588117 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | helena.txt | 0.525868 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | quincas.txt | 0.452068 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.437352 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.291497 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.290117 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.634639 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.513964 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | domCasmurro.txt | 0.487883 | ❌ |
+|Como Escobar morreu? | memoriasBras.txt | 0.704576 | ❌ |
+|Como Escobar morreu? | esau.txt | 0.533779 | ❌ |
+|Como Escobar morreu? | quincas.txt | 0.522244 | ❌ |
 
 * Modelo DPR - Haystack (PT)
 
-| Pergunta | Documento | Score |
-|------------- | :-------------: | -------------|
-|Quem é Capitu? | quincas.txt | 0.797495 |
-|Quem é Capitu? | domCasmurro.txt | 0.697046 |
-|Quem é Capitu? | iaia.txt | 0.690444 |
-|Quem foi Mascarenhas? | quincas.txt | 0.518228 |
-|Quem foi Mascarenhas? | memoriasBras.txt | 0.427477 |
-|Quem foi Mascarenhas? | quincas.txt | 0.425616 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.915381 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.912015 |
-|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.867204 |
-|Rubião e Cristiano viram sócios em que? | helena.txt | 0.861414 |
-|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.851872 |
-|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.809805 |
-|Por que Estevão desejava morrer? | quincas.txt | 0.437841 |
-|Por que Estevão desejava morrer? | maoLuva.txt | 0.286587 |
-|Por que Estevão desejava morrer? | memorial-de-aires.txt | 0.278605 |
-|Salvador era pai de quem? | helena.txt | 0.786620 |
-|Salvador era pai de quem? | iaia.txt | 0.784398 |
-|Salvador era pai de quem? | esau.txt | 0.701406 |
-|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.588117 |
-|Com quem Jorge se casa ao voltar do Paraguai? | helena.txt | 0.525868 | 
-|Com quem Jorge se casa ao voltar do Paraguai? | quincas.txt | 0.452068 |
-|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.437352 |
-|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.291497 |
-|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.290117 |
-|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.634639 |
-|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.513964 |
-|Quem escreve sobre Tristão e Fidélia? | domCasmurro.txt | 0.487883 |
-|Como Escobar morreu? | memoriasBras.txt | 0.704576 |
-|Como Escobar morreu? | esau.txt | 0.533779 |
-|Como Escobar morreu? | quincas.txt | 0.522244 |
+| Pergunta | Documento | Score | Resultado |
+|------------- | :-------------: | ------------- | ------------- |
+|Quem é Capitu? | quincas.txt | 0.797495 | ❌ |
+|Quem é Capitu? | domCasmurro.txt | 0.697046 | ✅ |
+|Quem é Capitu? | iaia.txt | 0.690444 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.518228 | ❌ |
+|Quem foi Mascarenhas? | memoriasBras.txt | 0.427477 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.425616 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.915381 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.912015 | ✅ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.867204 | ✅ |
+|Rubião e Cristiano viram sócios em que? | helena.txt | 0.861414 | ❌ |
+|Rubião e Cristiano viram sócios em que? | memorial-de-aires.txt | 0.851872 | ❌ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 0.809805 | ✅ |
+|Por que Estevão desejava morrer? | quincas.txt | 0.437841 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt | 0.286587 | ✅ |
+|Por que Estevão desejava morrer? | memorial-de-aires.txt | 0.278605 | ❌ |
+|Salvador era pai de quem? | helena.txt | 0.786620 | ✅ |
+|Salvador era pai de quem? | iaia.txt | 0.784398 | ❌ |
+|Salvador era pai de quem? | esau.txt | 0.701406 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 0.588117 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | helena.txt | 0.525868 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | quincas.txt | 0.452068 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.437352 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 0.291497 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 0.290117 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.634639 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 0.513964 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | domCasmurro.txt | 0.487883 | ❌ |
+|Como Escobar morreu? | memoriasBras.txt | 0.704576 | ❌ |
+|Como Escobar morreu? | esau.txt | 0.533779 | ❌ |
+|Como Escobar morreu? | quincas.txt | 0.522244 | ❌ |
 
 * BM25Okapi
 
