@@ -119,13 +119,13 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 
 | Pergunta | Documento | Score | Resultado |
 |------------- | :-------------: | ------------- | ------------- |
-|Quem é Capitu? | domCasmurro.txt | 0.840419 | <ul><li>[x] a</li></ul> |
-|Quem é Capitu? | memoriasBras.txt | 0.744943 | [] |
+|Quem é Capitu? | domCasmurro.txt | 0.840419 | <ul><li>[x] ✅</li></ul> | ✅
+|Quem é Capitu? | memoriasBras.txt | 0.744943 | ❌ |
 |Quem é Capitu? | helena.txt | 0.733090 | [] |
 |Quem foi Mascarenhas? | esau.txt | 0.956288 | [] |
 |Quem foi Mascarenhas? | quincas.txt | 0.817726 | [] |
 |Quem foi Mascarenhas? | memoriasBras.txt | 0.594775 | [] |
-|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.995128 | <ul><li>[x] </li></ul> |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 0.995128 | ✅ |
 |Quem é a filha de Dona Eusébia e do Vilaça? | domCasmurro.txt | 0.893009 | [] |
 |Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 0.847360 | [] |
 |Rubião e Cristiano viram sócios em que? | domCasmurro.txt | 0.949915 | [] |
