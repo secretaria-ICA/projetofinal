@@ -119,7 +119,7 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 
 | Pergunta | Documento | Score | Resposta Correta |
 |------------- | :-------------: | ------------- | ------------- |
-|Quem é Capitu? | domCasmurro.txt | 0.840419 | <ul><li>[x]</li><li> |
+|Quem é Capitu? | domCasmurro.txt | 0.840419 | <ul><li>[x] a</li><li> |
 |Quem é Capitu? | memoriasBras.txt | 0.744943 | [] |
 |Quem é Capitu? | helena.txt | 0.733090 | [] |
 |Quem foi Mascarenhas? | esau.txt | 0.956288 | [] |
