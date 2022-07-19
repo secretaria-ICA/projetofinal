@@ -222,17 +222,114 @@ Após executação dos scripts afim de verificar os retornos que possuem a maior
 
 * BM25Okapi
 
+| Pergunta | Documento | Score | Resultado |
+|------------- | :-------------: | ------------- | ------------- |
+Quem é Capitu? | domCasmurro.txt | 4.451809 | ✅ |
+Quem é Capitu? | quincas.txt | 1.572012 | ❌ |
+Quem é Capitu? | ressurreicao.txt | 1.568776 | ❌ |
+Quem foi Mascarenhas? | quincas.txt | 1.566703 | ❌ |
+Quem foi Mascarenhas? | ressurreicao.txt | 1.566145 | ❌ |
+Quem foi Mascarenhas? | maoLuva.txt | 1.550557 | ❌ |
+Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 9.539631 | ✅ |
+Quem é a filha de Dona Eusébia e do Vilaça? | iaia.txt | 5.608041 | ❌ |
+Quem é a filha de Dona Eusébia e do Vilaça? | ressurreicao.txt | 5.606311 | ❌ |
+Rubião e Cristiano viram sócios em que? | quincas.txt | 13.328757 | ✅ |
+Rubião e Cristiano viram sócios em que? | iaia.txt | 3.282499 | ❌ |
+Rubião e Cristiano viram sócios em que? | helena.txt | 2.300342 | ❌ |
+Por que Estevão desejava morrer? | maoLuva.txt | 6.725565 | ✅ |
+Por que Estevão desejava morrer? | iaia.txt | 2.651488 | ❌ |
+Por que Estevão desejava morrer? | domCasmurro.txt | 2.254303 | ❌ |
+Salvador era pai de quem? | helena.txt | 6.463614 | ✅ |
+Salvador era pai de quem? | iaia.txt | 2.892272 | ❌ |
+Salvador era pai de quem? | domCasmurro.txt | 2.852768 | ❌ |
+Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 11.013979 | ✅ |
+Com quem Jorge se casa ao voltar do Paraguai? | maoLuva.txt | 8.404937 | ❌ |
+Com quem Jorge se casa ao voltar do Paraguai? | memorial-de-aires.txt | 5.468255 | ❌ |
+Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 3.993422 | ✅ |
+Por quem Pedro e Paulo estavam apaixonados? | memoriasBras.txt | 3.708351 | ❌ |
+Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 3.636246 | ❌ |
+Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 10.737606 | ✅ |
+Quem escreve sobre Tristão e Fidélia? | helena.txt | 2.865621 | ❌ |
+Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 2.720083 | ❌ |
+Como Escobar morreu? | domCasmurro.txt | 6.376088 | ✅ |
+Como Escobar morreu? | maoLuva.txt | 1.969889 | ❌ |
+Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
+
 
 * BM25L
 
+| Pergunta | Documento | Score | Resultado |
+|------------- | :-------------: | ------------- | ------------- |
+|Quem é Capitu? | domCasmurro.txt | 83.250801 | ✅ |
+|Quem é Capitu? | quincas.txt | 66.663409 | ❌ |
+|Quem é Capitu? | esau.txt | 64.138808 | ❌ |
+|Quem foi Mascarenhas? | esau.txt | 26.924270 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 25.262600 | ❌ |
+|Quem foi Mascarenhas? | memorial-de-aires.txt | 24.110393 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | esau.txt | 986.128793 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | quincas.txt | 954.404642 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 895.948385 | ✅ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 2662.750190 | ✅ |
+|Rubião e Cristiano viram sócios em que? | esau.txt | 313.699856 | ❌ |
+|Rubião e Cristiano viram sócios em que? | domCasmurro.txt | 281.310701 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt729.614339 | ✅ |
+|Por que Estevão desejava morrer? | quincas.txt309.632344 | ❌ |
+|Por que Estevão desejava morrer? | esau.txt300.154604 | ❌ |
+|Salvador era pai de quem? | helena.txt | 342.860667 | ✅ |
+|Salvador era pai de quem? | esau.txt | 340.105797 | ❌ |
+|Salvador era pai de quem? | quincas.txt | 337.923971 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 1555.876833 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | maoLuva.txt | 316.350096 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | quincas.txt | 238.416343 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 764.651031 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 248.672819 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | quincas.txt | 229.034089 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 939.252204 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | esau.txt | 259.672552 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | domCasmurro.txt | 238.347296 | ❌ |
+|Como Escobar morreu? | domCasmurro.txt | 306.564487 | ✅ |
+|Como Escobar morreu? | esau.txt | 2.823061 | ❌ |
+|Como Escobar morreu? | quincas.txt | 2.697297 | ❌ |
 
 * BM25+
 
+| Pergunta | Documento | Score | Resultado |
+|------------- | :-------------: | ------------- | ------------- |
+|Quem é Capitu? | domCasmurro.txt | 6.812792 | ✅ |
+|Quem é Capitu? | quincas.txt | 3.046554 | ❌ |
+|Quem é Capitu? | ressurreicao.txt | 3.045611 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 0.647112 | ❌ |
+|Quem foi Mascarenhas? | ressurreicao.txt | 0.646949 | ❌ |
+|Quem foi Mascarenhas? | maoLuva.txt | 0.642408 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 11.696299 | ✅ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | helena.txt | 6.897741 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | domCasmurro.txt | 6.712698 | ❌ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 25.763926 | ✅ |
+|Rubião e Cristiano viram sócios em que? | iaia.txt | 12.681740 | ❌ |
+|Rubião e Cristiano viram sócios em que? | helena.txt | 11.410104 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt | 11.989600 | ✅ |
+|Por que Estevão desejava morrer? | iaia.txt | 6.814021 | ❌ |
+|Por que Estevão desejava morrer? | domCasmurro.txt | 6.124424 | ❌ |
+|Salvador era pai de quem? | helena.txt | 9.721434 | ✅ |
+|Salvador era pai de quem? | iaia.txt | 4.928090 | ❌ |
+|Salvador era pai de quem? | domCasmurro.txt | 4.889697 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 13.943929 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | maoLuva.txt | 10.526583 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | memorial-de-aires.txt | 6.363105 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 7.515468 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 6.031557 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | memoriasBras.txt | 4.858863 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 17.579051 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | helena.txt | 7.363493 ||
+|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 7.083650 ||
+|Como Escobar morreu? | domCasmurro.txt | 11.795725 | ✅ |
+|Como Escobar morreu? | maoLuva.txt | 6.363999 | ❌ |
+|Como Escobar morreu? | ressurreicao.txt | 4.421122 | ❌ |
 
 
 ### 4. Conclusões
 
-Podemos verificar nas tabelas de resultados que...
+Podemos verificar nas tabelas de resultados que
 
 Uma melhoria para esta solução é possibilitar a leitura de documentos, dos repositórios, que estejam em outro formato (PDF, DOC, ODT, etc) Desta forma será possível possível obter uma solução mais ampla e flexível.
 
