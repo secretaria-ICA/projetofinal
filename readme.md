@@ -279,9 +279,9 @@ Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para ca
 |Rubião e Cristiano viram sócios em que? | quincas.txt | 2662.750190 | ✅ |
 |Rubião e Cristiano viram sócios em que? | esau.txt | 313.699856 | ❌ |
 |Rubião e Cristiano viram sócios em que? | domCasmurro.txt | 281.310701 | ❌ |
-|Por que Estevão desejava morrer? | maoLuva.txt729.614339 | ✅ |
-|Por que Estevão desejava morrer? | quincas.txt309.632344 | ❌ |
-|Por que Estevão desejava morrer? | esau.txt300.154604 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt | 729.614339 | ✅ |
+|Por que Estevão desejava morrer? | quincas.txt | 309.632344 | ❌ |
+|Por que Estevão desejava morrer? | esau.txt | 300.154604 | ❌ |
 |Salvador era pai de quem? | helena.txt | 342.860667 | ✅ |
 |Salvador era pai de quem? | esau.txt | 340.105797 | ❌ |
 |Salvador era pai de quem? | quincas.txt | 337.923971 | ❌ |
@@ -329,8 +329,8 @@ Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para ca
 |Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 6.031557 | ❌ |
 |Por quem Pedro e Paulo estavam apaixonados? | memoriasBras.txt | 4.858863 | ❌ |
 |Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 17.579051 | ✅ |
-|Quem escreve sobre Tristão e Fidélia? | helena.txt | 7.363493 ||
-|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 7.083650 ||
+|Quem escreve sobre Tristão e Fidélia? | helena.txt | 7.363493 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 7.083650 | ❌ |
 |Como Escobar morreu? | domCasmurro.txt | 11.795725 | ✅ |
 |Como Escobar morreu? | maoLuva.txt | 6.363999 | ❌ |
 |Como Escobar morreu? | ressurreicao.txt | 4.421122 | ❌ |
