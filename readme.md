@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Document Retrieval através de Q&A
+# Document Retrieval de literaturas brasileiras
 
 #### Aluno: [Camilo Lopes Costa](https://github.com/milocosta)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC)
