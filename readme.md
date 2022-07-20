@@ -233,36 +233,36 @@ Podemos observar que 8 de 10 livros corretos encontram-se dentro do top3 para ca
 
 | Pergunta | Documento | Score | Resultado |
 |------------- | :-------------: | ------------- | ------------- |
-Quem é Capitu? | domCasmurro.txt | 4.451809 | ✅ |
-Quem é Capitu? | quincas.txt | 1.572012 | ❌ |
-Quem é Capitu? | ressurreicao.txt | 1.568776 | ❌ |
-Quem foi Mascarenhas? | quincas.txt | 1.566703 | ❌ |
-Quem foi Mascarenhas? | ressurreicao.txt | 1.566145 | ❌ |
-Quem foi Mascarenhas? | maoLuva.txt | 1.550557 | ❌ |
-Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 9.539631 | ✅ |
-Quem é a filha de Dona Eusébia e do Vilaça? | iaia.txt | 5.608041 | ❌ |
-Quem é a filha de Dona Eusébia e do Vilaça? | ressurreicao.txt | 5.606311 | ❌ |
-Rubião e Cristiano viram sócios em que? | quincas.txt | 13.328757 | ✅ |
-Rubião e Cristiano viram sócios em que? | iaia.txt | 3.282499 | ❌ |
-Rubião e Cristiano viram sócios em que? | helena.txt | 2.300342 | ❌ |
-Por que Estevão desejava morrer? | maoLuva.txt | 6.725565 | ✅ |
-Por que Estevão desejava morrer? | iaia.txt | 2.651488 | ❌ |
-Por que Estevão desejava morrer? | domCasmurro.txt | 2.254303 | ❌ |
-Salvador era pai de quem? | helena.txt | 6.463614 | ✅ |
-Salvador era pai de quem? | iaia.txt | 2.892272 | ❌ |
-Salvador era pai de quem? | domCasmurro.txt | 2.852768 | ❌ |
-Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 11.013979 | ✅ |
-Com quem Jorge se casa ao voltar do Paraguai? | maoLuva.txt | 8.404937 | ❌ |
-Com quem Jorge se casa ao voltar do Paraguai? | memorial-de-aires.txt | 5.468255 | ❌ |
-Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 3.993422 | ✅ |
-Por quem Pedro e Paulo estavam apaixonados? | memoriasBras.txt | 3.708351 | ❌ |
-Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 3.636246 | ❌ |
-Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 10.737606 | ✅ |
-Quem escreve sobre Tristão e Fidélia? | helena.txt | 2.865621 | ❌ |
-Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 2.720083 | ❌ |
-Como Escobar morreu? | domCasmurro.txt | 6.376088 | ✅ |
-Como Escobar morreu? | maoLuva.txt | 1.969889 | ❌ |
-Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
+|Quem é Capitu? | domCasmurro.txt | 4.451809 | ✅ |
+|Quem é Capitu? | quincas.txt | 1.572012 | ❌ |
+|Quem é Capitu? | ressurreicao.txt | 1.568776 | ❌ |
+|Quem foi Mascarenhas? | quincas.txt | 1.566703 | ❌ |
+|Quem foi Mascarenhas? | ressurreicao.txt | 1.566145 | ❌ |
+|Quem foi Mascarenhas? | maoLuva.txt | 1.550557 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | memoriasBras.txt | 9.539631 | ✅ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | iaia.txt | 5.608041 | ❌ |
+|Quem é a filha de Dona Eusébia e do Vilaça? | ressurreicao.txt | 5.606311 | ❌ |
+|Rubião e Cristiano viram sócios em que? | quincas.txt | 13.328757 | ✅ |
+|Rubião e Cristiano viram sócios em que? | iaia.txt | 3.282499 | ❌ |
+|Rubião e Cristiano viram sócios em que? | helena.txt | 2.300342 | ❌ |
+|Por que Estevão desejava morrer? | maoLuva.txt | 6.725565 | ✅ |
+|Por que Estevão desejava morrer? | iaia.txt | 2.651488 | ❌ |
+|Por que Estevão desejava morrer? | domCasmurro.txt | 2.254303 | ❌ |
+|Salvador era pai de quem? | helena.txt | 6.463614 | ✅ |
+|Salvador era pai de quem? | iaia.txt | 2.892272 | ❌ |
+|Salvador era pai de quem? | domCasmurro.txt | 2.852768 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | iaia.txt | 11.013979 | ✅ |
+|Com quem Jorge se casa ao voltar do Paraguai? | maoLuva.txt | 8.404937 | ❌ |
+|Com quem Jorge se casa ao voltar do Paraguai? | memorial-de-aires.txt | 5.468255 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | esau.txt | 3.993422 | ✅ |
+|Por quem Pedro e Paulo estavam apaixonados? | memoriasBras.txt | 3.708351 | ❌ |
+|Por quem Pedro e Paulo estavam apaixonados? | domCasmurro.txt | 3.636246 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | memorial-de-aires.txt | 10.737606 | ✅ |
+|Quem escreve sobre Tristão e Fidélia? | helena.txt | 2.865621 | ❌ |
+|Quem escreve sobre Tristão e Fidélia? | maoLuva.txt | 2.720083 | ❌ |
+|Como Escobar morreu? | domCasmurro.txt | 6.376088 | ✅ |
+|Como Escobar morreu? | maoLuva.txt | 1.969889 | ❌ |
+|Como Escobar morreu? | ressurreicao.txt | 0.765925 | ❌ |
 
 Podemos observar que 9 de 10 livros corretos encontram-se dentro do top3 para cada pergunta.
 
