@@ -63,29 +63,29 @@ The works contained in this repository are:
 
 ### 1. Introdução
 
-O NLP (do inglês *Natural Language Processing*) vem ganhando grande notoriedade no mercado hoje em dias para realizações de análises quantitativas e qualitativas (eg.: verificando os tesmos mais recorrentes nas avaliações e se a avaliação foi positiva ou negativa através da "análise de sentimentos"). Por se tratar de uma ramo muito abrangente da área de *Machine Learning*, muitos têm ganhado bastante atenção nos dias de hoje.
+O NLP (do inglês *Natural Language Processing*) vem ganhando grande notoriedade no mercado hoje em dias para realizações de análises quantitativas e qualitativas (eg.: verificando os termos mais recorrentes nas avaliações e se a avaliação foi positiva ou negativa através da "análise de sentimentos"). Por se tratar de um ramo muito abrangente da área de *Machine Learning*, muitos têm ganhado bastante atenção nos dias de hoje.
 
 Das diversas aplicações de NLP, algumas que se destacam atualmente são:
-* Speech Transcription: geração de texto através da fala ou geração da fala através de um texto;
+* Speech Transcription: Geração de texto através da fala ou geração da fala através de um texto;
 * Neural Machine Translation (NMT): Tradução entre idiomas;
-* Chatbots: Grande tendência entre as empresas por se tratar de robôs de conversa muito utilizado no atendimento ao cliente. Este tipo de algoritmo pode ser utilizado para utilização de voz ou por texto;
-* Questions & Answers (Q&A): São muito utilizados para buscar possíveis resposta tanto na internet quanto num repositório, seja ele de documentos ou tabelas.
+* Chatbots: Grande tendência entre as empresas por se tratar de robôs de conversa muito utilizados no atendimento ao cliente. Este tipo de algoritmo pode ser utilizado para utilização de voz ou por texto;
+* Questions & Answers (Q&A): São muito utilizados para buscar possíveis respostas tanto na internet quanto num repositório, seja ele de documentos ou tabelas.
 * Text Summarization: Realizar o resumo de textos de através de mecanismos extrativos no qual são extraídos trechos do texto que possuem maiores aproximações conforme o algoritmo de comparação (cosseno, etc) ou abstrativos que implica em ler o texto e escrever um resumo, ou seja, texto novo;
 * Image Captioning: Geração de uma legenda através do reconhecimento de uma imagem;
 * Video Captioning: Geração de legendas automáticas de vídeos;
 * Análise de Sentimentos: Verificar se o texto possui características positivas, negativas ou neutras. Ex.: Positiva: 'Estou feliz...', Negativa: 'Estou triste...';
-* Document Retrieval: retorna os documentos baseados em algum parâmetro de busca, seja ele uma pergunta do usuário ou um trecho;
-* Passage Retrieval: pode-se dizer que trata-se de uma melhoraria do Document Retrieval possibilitando o retorno não apenas o documento mas também o trecho, página, etc. que se encontra a resposta
+* Document Retrieval: Retorna os documentos baseados em algum parâmetro de busca, seja ele uma pergunta do usuário ou um trecho;
+* Passage Retrieval: Pode-se dizer que trata-se de uma melhoraria do Document Retrieval possibilitando o retorno não apenas o documento mas também o trecho, página, etc. que se encontra a resposta
 
 O Document Retrieval pode ser utilizado para diversas finalidades, desde buscar um livro que contenha algumas características e assim poder categorizá-lo até a possibilidade de verificar um Curriculum e direcionar à área que tenha maior afinidade (aplicação de RH).
 
-A utilização do Q&A com o Document Retrieval abranje ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados (documentos) que possuam maior *score* agilizando o processo de seleção de livros ou documentos.
+A utilização do Q&A com o Document Retrieval abrange ainda mais sua aplicabilidade, fazendo com que um usuário tenha uma interação maior e possua um retorno com os resultados (documentos) que possuam maior *score* agilizando o processo de seleção de livros ou documentos.
 
 Para o repositório utilizado, foram elaboradas as seguintes perguntas simples:
 1. Quem foi Capitu?
 2. Quem foi Mascarenhas?
 3. Quem é a filha de Dona Eusébia e do Vilaça?
-4. Rubião e Cristiano viram sócios em que?
+4. Rubião e Cristiano viraram sócios em que?
 5. Por que Estevão desejava morrer?
 6. Salvador era pai de quem?
 7. Com quem Jorge se casa ao voltar do Paraguai?
@@ -107,8 +107,8 @@ O maior score para cada pergunta deverá ser o seguinte:
 
 ### 2. Modelagem
 
-Para modelagem do problemas foram utilizados os conceitos BERT (do inglês *Bidirectional Encoder Representations from Transformers*) no qual utiliza como predição os termos entre as frase. Neste projeto foram utilizados 3 modelos para verificação dos scores apresentados nos quais 2 deles são do idioma inglês com um possibilidade de pré-processamento no idioma portugUês. São eles:
-- Modelo Q&A de Pierre Guillou para idioma português.
+Para modelagem do problemas foram utilizados os conceitos BERT (do inglês *Bidirectional Encoder Representations from Transformers*) no qual utiliza como predição os termos entre as frases. Neste projeto foram utilizados 3 modelos para verificação dos scores apresentados nos quais 2 deles são do idioma inglês com uma possibilidade de pré-processamento no idioma português. São eles:
+- Modelo Q&A de Pierre Guillou para o idioma português.
 - Modelo DPR (do inglês *Deep Passage Retrieval*) do projeto Haystack da equipe Deepset.
 - Modelo BM25 da biblioteca `rank_bm25`.
 
@@ -116,7 +116,7 @@ O modelo DPR será analisado para execução sem pré-processamento (idioma ingl
 
 ### 3. Resultados
 
-Após executação dos scripts afim de verificar os retornos que possuem a maior similarida, ou seja, os livros que possuem o maior score para o termo pesquisado, obtemos o seguinte:
+Após execução dos scripts a fim de verificar os retornos que possuem a maior similaridade, ou seja, os livros que possuem o maior score para o termo pesquisado, obtemos o seguinte:
 
 * QA - Pierre Guillou
 
